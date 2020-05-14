@@ -29,8 +29,8 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  array = ["am", "am", "am", 4]
-  array.index(index_number)
+  array = ["wow", "am", "am", 4]
+  array.index[index_number]
 end
 
 def retrieve_first_element_from_array(array)
