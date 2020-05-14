@@ -46,5 +46,5 @@ end
 def update_element_from_index(array, index_number, element)
   array = [1,2,3,4]
   array.insert(index_number, element)
-  puts array[-1]
+  p array[-1]
 end
