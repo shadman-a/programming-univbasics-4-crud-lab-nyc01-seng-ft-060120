@@ -13,20 +13,24 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = [1,2,3,4]
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
   array = [1,2,3,4]
+  array.pop
 
 end
 
 def remove_element_from_start_of_array(array)
   array = [1,2,3,4]
+  array.shift
 
 end
 
 def retrieve_element_from_index(array, index_number)
   array = [1,2,3,4]
+  array.index(index_number)
 
 end
 
